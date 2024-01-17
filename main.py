@@ -25,7 +25,7 @@ for ticker in tickers:
     news_table = html.find(id='news-table')
     news_tables[ticker] = news_table
 
-    break
+    break # be sure to remove so you be able to visualize all stocks
 
 # MANIPULATING FIN VIZ DATA
 parsed_data = []
